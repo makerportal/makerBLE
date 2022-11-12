@@ -70,7 +70,7 @@ void writeBMP280Str(){
     String strToPrint = ""; // string to print 
 
     temp = bmp.readTemperature(); // read temperature [C]
-    pres = bmp.readPressure()/1000.0; // read pressure [hPa]
+    pres = bmp.readPressure()/100.0; // read pressure [hPa]
     alti = bmp.readAltitude(1017.5); // approx altitude [m], with hPa pressure ref. at sea level
 
 //    strToPrint+= String(temp,2); strToPrint+=","; // uncomment to send temp
