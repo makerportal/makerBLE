@@ -9,35 +9,30 @@
 		},
 		"platforms": [{
 				"name": "MakerBLE Board",
-				"architecture": "mbed",
-				"version": "2.7.2",
+				"architecture": "nrf52",
+				"version": "1.0.0",
 				"category": "Contributed",
-				"url": "https://www.dl.dropboxusercontent.com/s/dmtfnzkbozlx8dw/2.7.2.zip",
-				"archiveFileName": "2.7.2.zip",
-				"checksum": "SHA-256:339e4fdfc96d10db304135617d3caffff3697b9228bbf97066de6a93e6682efe",
-				"size": "41665489",
+				"url": "https://www.dl.dropboxusercontent.com/s/og9qtknantgqxc9/ArduinoCore-MakerBLE-nRF52-1.0.0.zip",
+				"archiveFileName": "ArduinoCore-MakerBLE-nRF52-1.0.0.zip",
+				"checksum": "SHA-256:0ba8a9665c34307a4993f4ef845d0468cad637b4f5cbea6c6119b99d94d2aebe",
+				"size": "114018197",
 				"boards": [{
 					"name": "MakerBLE Board"
 				}],
 				"toolsDependencies": [{
-						"packager": "Maker Portal",
-						"name": "openocd",
-						"version": "0.11.0-arduino2"
-					},
-					{
-						"packager": "Maker Portal",
+						"packager": "Seeeduino",
 						"name": "arm-none-eabi-gcc",
-						"version": "7-2017q4"
+						"version": "9-2019q4"
+						},
+					{
+						"packager": "Seeeduino",
+						"name": "nrfjprog",
+						"version": "9.4.0"
 					},
 					{
-						"packager": "Maker Portal",
-						"name": "bossac",
-						"version": "1.9.1-arduino2"
-					},
-					{
-						"packager": "Maker Portal",
-						"version": "0.10.0-arduino1",
-						"name": "dfu-util"
+						"packager": "Seeeduino",
+						"name": "CMSIS",
+						"version": "5.7.0"
 					}
 				]
 			}
