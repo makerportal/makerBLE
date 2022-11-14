@@ -14,7 +14,6 @@
 				"category": "Contributed",
 				"url": "https://www.dl.dropboxusercontent.com/s/dmtfnzkbozlx8dw/2.7.2.zip",
 				"archiveFileName": "2.7.2.zip",
-				"checksum": "SHA-256:1EDF8F8433BCE600B24A384D3D7938FC1B9F23100F954F2220E766C9EED9A3B3",
 				"size": "41665489",
 				"boards": [{
 					"name": "MakerBLE Board"
