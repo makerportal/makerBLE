@@ -3,7 +3,7 @@
 		"name": "MakerPortal",
 		"maintainer": "Maker Portal",
 		"websiteURL": "https://www.makersportal.com/",
-		"email": "techsupport@seeed.cc",
+		"email": "engineer@makersportal.com",
 		"help": {
 			"online": "https://makersportal.com/makerble"
 		},
@@ -14,8 +14,8 @@
 				"category": "Contributed",
 				"url": "https://www.dl.dropboxusercontent.com/s/og9qtknantgqxc9/ArduinoCore-MakerBLE-nRF52-1.0.0.zip",
 				"archiveFileName": "ArduinoCore-MakerBLE-nRF52-1.0.0.zip",
-				"checksum": "SHA-256:0ba8a9665c34307a4993f4ef845d0468cad637b4f5cbea6c6119b99d94d2aebe",
-				"size": "114018197",
+				"checksum": "SHA-256:7352dd1d0fdb263b7689c315036cfd9f57c09b58897707bcbd5c313f146ae101",
+				"size": "113889299",
 				"boards": [{
 					"name": "MakerBLE Board"
 				}],
