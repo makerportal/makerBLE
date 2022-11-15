@@ -21,22 +21,22 @@
 					"name": "MakerBLE nRF52840 mbed"
 				}],
 				"toolsDependencies": [{
-						"packager": "Seeeduino",
+						"packager": "Maker Portal",
 						"name": "openocd",
 						"version": "0.11.0-arduino2"
 					},
 					{
-						"packager": "Seeeduino",
+						"packager": "Maker Portal",
 						"name": "arm-none-eabi-gcc",
 						"version": "7-2017q4"
 					},
 					{
-						"packager": "Seeeduino",
+						"packager": "Maker Portal",
 						"name": "bossac",
 						"version": "1.9.1-arduino2"
 					},
 					{
-						"packager": "Seeeduino",
+						"packager": "Maker Portal",
 						"version": "0.10.0-arduino1",
 						"name": "dfu-util"
 					}
