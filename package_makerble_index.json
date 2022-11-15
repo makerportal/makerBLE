@@ -11,12 +11,12 @@
 			{
 				"name": "MakerBLE mbed Board",
 				"architecture": "mbed",
-				"version": "2.7.2",
+				"version": "1.0.0",
 				"category": "Contributed",
-				"url": "https://dl.dropboxusercontent.com/s/k4f321jh6pie2q7/ArduinoCore-MakerBLE-nRF52.tar.gz",
+				"url": "https://dl.dropboxusercontent.com/s/2b0lqx9tg3j92ok/ArduinoCore-MakerBLE-nRF52.tar.gz",
 				"archiveFileName": "ArduinoCore-MakerBLE-nRF52.tar.gz",
-				"checksum": "SHA-256:e0545024b981f7fba68ca98be61e3ec7b79dd56845bfa64db24b7a8123da31c4",
-				"size": "35935322",
+				"checksum": "SHA-256:fec399f4dd875d41a26cd5c193419e173916e5190c9fc33593f9af3520c4903a",
+				"size": "35946181",
 				"boards": [{
 					"name": "MakerBLE nRF52840 mbed"
 				}],
