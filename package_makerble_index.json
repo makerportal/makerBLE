@@ -13,10 +13,10 @@
 				"architecture": "mbed",
 				"version": "2.7.2",
 				"category": "Contributed",
-				"url": "https://files.seeedstudio.com/arduino/core/mbed/20220720_XIAOBLE_2.7.2.tar.bz2",
-				"archiveFileName": "20220720_XIAOBLE_2.7.2.tar.bz2",
-				"checksum": "SHA-256:1EDF8F8433BCE600B24A384D3D7938FC1B9F23100F954F2220E766C9EED9A3B3",
-				"size": "31875853",
+				"url": "https://dl.dropboxusercontent.com/s/xa3m9bfdoszs5km/ArduinoCore-MakerBLE-nRF52.zip",
+				"archiveFileName": "ArduinoCore-MakerBLE-nRF52.zip",
+				"checksum": "SHA-256:2917d01b83d49e4ddb25878643c0dbc7287da4f353ab7dfa46e92df1e42fc1d6",
+				"size": "42114273",
 				"boards": [{
 					"name": "MakerBLE nRF52840 mbed"
 				}],
