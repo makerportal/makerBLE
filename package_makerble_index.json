@@ -46,7 +46,7 @@
 				"checksum": "SHA-256:1EDF8F8433BCE600B24A384D3D7938FC1B9F23100F954F2220E766C9EED9A3B3",
 				"size": "31875853",
 				"boards": [{
-					"name": "Seeed XIAO nRF52840 Sense"
+					"name": "MakerBLE nRF52840 mbed"
 				}],
 				"toolsDependencies": [{
 						"packager": "Seeeduino",
@@ -80,7 +80,7 @@
 				"checksum": "SHA-256:8655BD996E304706E7E685A58DB7A9A7B059CB8877D31A1C49AC582D4BBB04AC",
 				"size": "31873604",
 				"boards": [{
-					"name": "Seeed XIAO nRF52840 Sense"
+					"name": "MakerBLE nRF52840 mbed"
 				}],
 				"toolsDependencies": [{
 						"packager": "Seeeduino",
@@ -114,7 +114,7 @@
 				"checksum": "SHA-256:529A5A14669847BFE7642CD4F1298F94C987B6C392176A6D37ACB17243B82B3D",
 				"size": "49404252",
 				"boards": [{
-					"name": "Seeed XIAO nRF52840 Sense"
+					"name": "MakerBLE nRF52840 mbede"
 				}],
 				"toolsDependencies": [{
 						"packager": "Seeeduino",
