@@ -86,7 +86,7 @@
 				"checksum": "SHA-256:529A5A14669847BFE7642CD4F1298F94C987B6C392176A6D37ACB17243B82B3D",
 				"size": "49404252",
 				"boards": [{
-					"name": "MakerBLE nRF52840 mbede"
+					"name": "MakerBLE nRF52840 mbed"
 				}],
 				"toolsDependencies": [{
 						"packager": "Seeeduino",
