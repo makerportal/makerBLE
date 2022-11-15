@@ -35,6 +35,103 @@
 						"version": "5.7.0"
 					}
 				]
+			},
+			{
+				"name": "MakerBLE mbed Board",
+				"architecture": "mbed",
+				"version": "2.7.2",
+				"category": "Contributed",
+				"url": "https://files.seeedstudio.com/arduino/core/mbed/20220720_XIAOBLE_2.7.2.tar.bz2",
+				"archiveFileName": "20220720_XIAOBLE_2.7.2.tar.bz2",
+				"checksum": "SHA-256:1EDF8F8433BCE600B24A384D3D7938FC1B9F23100F954F2220E766C9EED9A3B3",
+				"size": "31875853",
+				"boards": [{
+					"name": "Seeed XIAO nRF52840 Sense"
+				}],
+				"toolsDependencies": [{
+						"packager": "Seeeduino",
+						"name": "openocd",
+						"version": "0.11.0-arduino2"
+					},
+					{
+						"packager": "Seeeduino",
+						"name": "arm-none-eabi-gcc",
+						"version": "7-2017q4"
+					},
+					{
+						"packager": "Seeeduino",
+						"name": "bossac",
+						"version": "1.9.1-arduino2"
+					},
+					{
+						"packager": "Seeeduino",
+						"version": "0.10.0-arduino1",
+						"name": "dfu-util"
+					}
+				]
+			},
+			{
+				"name": "MakerBLE mbed Board",
+				"architecture": "mbed",
+				"version": "2.6.1",
+				"category": "Contributed",
+				"url": "https://files.seeedstudio.com/arduino/core/mbed/nrf52840_05202022_2.6.1.tar.bz2",
+				"archiveFileName": "nrf52840_05202022_2.6.1.tar.bz2",
+				"checksum": "SHA-256:8655BD996E304706E7E685A58DB7A9A7B059CB8877D31A1C49AC582D4BBB04AC",
+				"size": "31873604",
+				"boards": [{
+					"name": "Seeed XIAO nRF52840 Sense"
+				}],
+				"toolsDependencies": [{
+						"packager": "Seeeduino",
+						"name": "openocd",
+						"version": "0.11.0-arduino2"
+					},
+					{
+						"packager": "Seeeduino",
+						"name": "arm-none-eabi-gcc",
+						"version": "7-2017q4"
+					},
+					{
+						"packager": "Seeeduino",
+						"name": "bossac",
+						"version": "1.9.1-arduino2"
+					},
+					{
+						"packager": "Seeeduino",
+						"version": "0.10.0-arduino1",
+						"name": "dfu-util"
+					}
+				]
+			},
+			{
+				"name": "MakerBLE mbed Board",
+				"architecture": "mbed",
+				"version": "1.0.0",
+				"category": "Contributed",
+				"url": "https://files.seeedstudio.com/arduino/core/mbed/Arduino_core_nRF52840.tar.bz2",
+				"archiveFileName": "Arduino_core_nRF52840.tar.bz2",
+				"checksum": "SHA-256:529A5A14669847BFE7642CD4F1298F94C987B6C392176A6D37ACB17243B82B3D",
+				"size": "49404252",
+				"boards": [{
+					"name": "Seeed XIAO nRF52840 Sense"
+				}],
+				"toolsDependencies": [{
+						"packager": "Seeeduino",
+						"name": "arm-none-eabi-gcc",
+						"version": "9-2019q4"
+					},
+					{
+						"packager": "Seeeduino",
+						"name": "nrfjprog",
+						"version": "9.4.0"
+					},
+					{
+						"packager": "Seeeduino",
+						"name": "CMSIS",
+						"version": "5.7.0"
+					}
+				]
 			}
 		],
 		"tools": [{
