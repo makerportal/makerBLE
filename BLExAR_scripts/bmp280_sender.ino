@@ -11,13 +11,13 @@
 #include <Adafruit_BMP280.h>
 #include <ArduinoBLE.h>
 
+// Full list of Arduino BLE commands: https://github.com/arduino-libraries/ArduinoBLE
 BLEService myService("0000ffe0-0000-1000-8000-00805f9b34fb"); // BLExAR BLE service
-BLECharacteristic myCharacteristic("FFE1", 
-                        BLEWrite | BLENotify,0x10); 
+BLECharacteristic myCharacteristic("FFE1", BLEWrite | BLENotify,0x10); 
 
 Adafruit_BMP280 bmp; // BMP280 I2C device
 long previousMillis = 0;  // last time the BMP280 was read, in [millisec]
-int TXdelay = 1000; // delay between sends
+int TXdelay = 500; // delay between sends
 
 void setup() {
   if (!BLE.begin()) {
@@ -32,8 +32,8 @@ void setup() {
   myService.addCharacteristic(myCharacteristic); // add BLE characteristic
   BLE.addService(myService); // add BLE service
   BLEAdvertisingData scanData;
-  scanData.setLocalName("makerBLE"); // set name
-  BLE.setDeviceName("makerBLE"); // set name
+  scanData.setLocalName("MakerBLE"); // set name
+  BLE.setDeviceName("MakerBLE"); // set name
 
   BLE.setScanResponseData(scanData);// set data for scanners (BLE apps)
   BLE.advertise(); // advertise BLE device
