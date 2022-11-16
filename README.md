@@ -7,7 +7,7 @@ See the introductory tutorial here: [Intro to MakerBLE Board](https://makersport
 # 
 ### JUMP TO:
 <a href="#pinout">- Pinout Diagram</a><br>
-<a href="#arduino">- Arduino Codes</a><br>
+<a href="#arduino">- General Arduino Examples</a><br>
 <a href="#bluetooth">- Bluetooth Scripts</a><br>
 
 The MakerBLE library can be downloaded using git:
@@ -19,3 +19,9 @@ The MakerBLE library can be downloaded using git:
 Below is the pinout for the MakerBLE board:
 
 ![MakerBLE Arduino Board](https://images.squarespace-cdn.com/content/v1/59b037304c0dbfb092fbe894/1665967574022-GEHG1YE8D38N2FEJR337/MakerBLE_pinout.png?format=2500w)
+
+<a id="arduino"></a>
+# - General Arduino Examples -
+The general Arduino example scripts can be found in the subfolder '/'
+
+- [haptic_joystick.ino](haptic_joystick.ino)
