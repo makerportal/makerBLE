@@ -12,14 +12,13 @@
 
 // Full list of Arduino BLE commands: https://github.com/arduino-libraries/ArduinoBLE
 BLEService myService("0000ffe0-0000-1000-8000-00805f9b34fb"); // service characteristic
-BLECharacteristic myCharacteristic("EFE5", BLEIndicate | BLEWriteWithoutResponse ,0x20);
+BLECharacteristic myCharacteristic("EFE5", BLERead | BLEWrite | BLENotify ,0x20);
 
-int ledArray[] = {LEDR,LEDG,LEDB}; // onboard LED array
+int ledArray[] = {11,12,13}; // onboard LED array
 int ledCount = sizeof (ledArray) / sizeof (ledArray[0]); // for looping through LEDs
 
 void setup() {
   Serial.begin(115200); // start serial monitor
-  while(!Serial); // wait for serial monitor to be opened
   
   if (!BLE.begin()) { // wait for BLE to start
     Serial.println("failed to initialize BLE!"); 
