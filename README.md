@@ -37,3 +37,5 @@ Bluetooth scripts for communicating between the MakerBLE and other BLE devices. 
 - [bmp280_sender.ino](BLExAR_scripts/bmp280_sender.ino)
 
 The 'msg_comm.ino' script waits for a BLE connection and turns its RGB LEDs on/off depending on the incoming message. The script will also print out the message sent from the connected BLE device. If using the BLExAR app, if 'red,' 'green,' or 'blue' are sent from the BLExAR app, the onboard RGB LED will turn on. The MakerBLE also sends text back to the BLExAR app. If the LED is on and the hello message is received in the BLExAR terminal, this verifies the full communication path of the MakerBLE and BLExAR. The 'bmp280_sender.ino' will allow users to test the datalogging capabilities between the MakerBLE and BLExAR app and will plot the incoming data on the BLExAR app sent from the MakerBLE board. 
+
+![MakerBLE Message Output](https://images.squarespace-cdn.com/content/v1/59b037304c0dbfb092fbe894/cc9ace48-3656-46ef-9406-6e0bb80fbbef/MakerBLE_BLExAR_BLOG_MAIN.JPG?format=2500w)
