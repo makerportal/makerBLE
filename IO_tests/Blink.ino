@@ -9,14 +9,12 @@
 ***************************************************************************/
 
 void setup() {
-  // initialize digital pin LED_BUILTIN as an output.
-  pinMode(LEDR, OUTPUT);
+  pinMode(LEDR, OUTPUT); // LEDR, LEDG, LEDB work with MakerBLE
 }
 
-// the loop function runs over and over again forever
 void loop() {
-  digitalWrite(LEDR, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(1000);                       // wait for a second
-  digitalWrite(LEDR, LOW);    // turn the LED off by making the voltage LOW
-  delay(1000);                       // wait for a second
+  digitalWrite(LEDR, HIGH);   // turn the LED on (LOW is 'on' for onboard RGB)
+  delay(500);                       // wait for 500 ms
+  digitalWrite(LEDR, LOW);    // turn the LED off (HIGH is 'off' for onboard RGB)
+  delay(500);                       // wait for 500 ms
 }
