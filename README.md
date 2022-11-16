@@ -22,7 +22,14 @@ Below is the pinout for the MakerBLE board:
 
 <a id="arduino"></a>
 # - General Arduino Examples -
-The general Arduino example scripts can be found in the subfolder 'IO_tests'
+The general Arduino example scripts can be found in the 'IO_tests' subfolder:
+
+- [Blink.ino](IO_tests//Blink.ino)
+- [CapacitiveTouchTest.ino](IO_tests//CapacitiveTouchTest.ino)
+
+<a id="bluetooth"></a>
+# - Bluetooth Scripts -
+Bluetooth scripts for communicating between the MakerBLE and other BLE devices. Specifically, the codes are centered around communicating with the BLExAR iOS app. The codes can be found in the subfolder 'IO_tests'
 
 - [Blink.ino](IO_tests//Blink.ino)
 - [CapacitiveTouchTest.ino](IO_tests//CapacitiveTouchTest.ino)
