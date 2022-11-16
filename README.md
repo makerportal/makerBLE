@@ -27,9 +27,13 @@ The general Arduino example scripts can be found in the 'IO_tests' subfolder:
 - [Blink.ino](IO_tests/Blink.ino)
 - [CapacitiveTouchTest.ino](IO_tests/CapacitiveTouchTest.ino)
 
+The 'Blink.ino' script is meant to test the onboard RGB LED as a first step to testing and using the MakerBLE board. The 'CapacitiveTouchTest.ino' script tests the general digital GPIOs on the MakerBLE by reading and waiting for the digital pin to read high (sensor touched). More of these general test scripts will be added over time as the board projects mature.
+
 <a id="bluetooth"></a>
 # - Bluetooth Scripts -
 Bluetooth scripts for communicating between the MakerBLE and other BLE devices. Specifically, the codes are centered around communicating with the BLExAR iOS app. The codes can be found in the 'BLExAR_scripts' subfolder:
 
 - [msg_comm.ino](BLExAR_scripts/msg_comm.ino)
 - [bmp280_sender.ino](BLExAR_scripts/bmp280_sender.ino)
+
+The 'msg_comm.ino' script waits for a BLE connection and turns its RGB LEDs on/off depending on the incoming message. The script will also print out the message sent from the connected BLE device. If using the BLExAR app, if 'red,' 'green,' or 'blue' are sent from the BLExAR app, the onboard RGB LED will turn on. The MakerBLE also sends text back to the BLExAR app. If the LED is on and the hello message is received in the BLExAR terminal, this verifies the full communication path of the MakerBLE and BLExAR. The 'bmp280_sender.ino' will allow users to test the datalogging capabilities between the MakerBLE and BLExAR app and will plot the incoming data on the BLExAR app sent from the MakerBLE board. 
