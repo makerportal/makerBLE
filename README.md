@@ -1,6 +1,8 @@
 # MakerBLE nRF52840 Arduino Board
 Arduino scripts, examples, and project codes for the nRF52840 MakerBLE Bluetooth Low Energy Arduino board, compatible with the BLExAR iOS app.
 
+**Interactive companion:** [BLE GATT Visualizer](https://makerportal.ai/lab/ble-gatt-visualizer) — inspect services, characteristics, permissions, and packet structure in the browser.
+
 Purchase a MakerBLE Arduino board here: [Shop MakerBLE Arduino Board](https://makersportal.com/shop/makerble-arduino-board) <br>
 See the introductory tutorial here: [Intro to the MakerBLE Arduino Board](https://makersportal.com/blog/makerble-tiny-nrf52840-bluetooth-arduino-board) <br>
 
